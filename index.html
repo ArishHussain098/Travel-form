@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel form</title>
+</head>
+<style>
+fieldset{
+    margin-left: 35%;
+}
+</style>
+<body>
+    <form action="./form.html">
+     <fieldset style="width: 100px;" >
+        <h1>Travel Request Form </h1>
+        <hr>
+        <p>Empolyee Name</p>
+        <table>
+            <tr>
+                <td>
+                    <input type="text" placeholder="First" required>
+                </td>
+                <td>
+                    <input type="text" placeholder="Last" required>
+                </td>
+            </tr>
+        </table>
+       <table> <p>Empolyee ID</p>
+        <tr ><td rowspan="2">
+            <input type="number" style="width: 198%;" required>  
+        </td></tr></table>
+        <p>Manager/Supervisor</p>
+        <table>
+            <tr>
+                <td>
+                    <input type="text" placeholder="First" required>
+                </td>
+                <td>
+                    <input type="text" placeholder="Last" required>
+                </td>
+            </tr>
+        </table>
+       <table> <p>Reason For Travel</p>
+        <tr ><td rowspan="2">
+            <input type="text" style="width: 198%;" required>  
+        </td></tr></table>
+        <p>Travel arrangments needed</p>
+        <table>
+            <tr><td><input type="checkbox" name="1">Flight</td></tr>
+            <tr><td><input type="checkbox" name="1">Hotel</td></tr>
+            <tr><td><input type="checkbox" name="1">Rental Car</td></tr>
+            <tr><td><input type="checkbox" name="1">Other</td></tr>
+        </table>
+
+        <table>
+            <tr><td>Depature City</td>
+            <td>Arrival City</td></tr>
+            <tr>
+                <td>
+                    <input type="text" required>
+                </td>
+                <td>
+                    <input type="text" required>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr><td>Depature Date</td>
+            <td>Depature Time</td></tr>
+            <tr>
+                <td>
+                    <input type="date" required>
+                </td>
+                <td>
+                    <input type="time" required>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr><td >Return Date</td>
+                <td>Return Time</td></tr>
+            <tr>
+                <td rowspan="2">
+                    <input type="date" required>
+                </td>
+                <td>
+                    <input type="time" required>
+                </td>
+            </tr>
+        </table>
+
+        <table> <p>Additional Information</p>
+            <tr ><td rowspan="2">
+                <input type="text" style="width: 198%;" required>  
+            </td></tr></table>
+<center>
+<button>Submit</button></center>
+    </form>
+</fieldset>
+</body>
+
+</html>
